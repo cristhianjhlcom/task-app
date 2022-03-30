@@ -11,16 +11,30 @@
 
 .taskListItem {
   background-color: var(--white-color);
-  padding: 15px 20px;
   margin-bottom: 10px;
   border-radius: 4px;
+  overflow: hidden;
+}
+
+.taskListContent {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 15px 20px;
 }
 
 .taskItemTitle {
-  margin: 0 0 10px 0;
+  margin: 0;
+}
+
+.taskListTime {
+  padding: 5px;
+  background-color: var(--primary-color-800);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primary-color-50);
+  font-size: 10px;
 }
 
 .taskForm {

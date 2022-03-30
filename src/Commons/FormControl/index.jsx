@@ -8,6 +8,7 @@ export function FormControl({ task, handleChange }) {
         Task
       </label>
       <input
+        autoComplete="off"
         type="text"
         name="task"
         id="task"
