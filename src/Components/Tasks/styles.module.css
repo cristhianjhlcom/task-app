@@ -1,0 +1,24 @@
+.tasksContainer {
+  max-width: 600px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.tasksList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskListItem {
+  background-color: var(--white-color);
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.taskItemTitle {
+  margin: 0 0 10px 0;
+}
