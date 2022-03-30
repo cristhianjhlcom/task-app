@@ -1,4 +1,8 @@
 import { useState } from 'react'
+import PropTypes from 'prop-types'
+import styles from './styles.module.css'
+import { FormControl } from '../../Commons/FormControl'
+import { Button } from '../../Commons/Button'
 
 export function TaskForm({ addTask }) {
   const [task, setTask] = useState('')
@@ -21,21 +25,17 @@ export function TaskForm({ addTask }) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className={styles.taskForm} onSubmit={handleSubmit}>
+      <FormControl task={task} handleChange={handleChange} />
       <div>
-        <label htmlFor="task">Task</label>
-        <input
-          type="text"
-          name="task"
-          id="task"
-          placeholder="Add your description here"
-          value={task}
-          onChange={(e) => handleChange(e)}
-        />
-      </div>
-      <div>
-        <button type="submit">Add</button>
+        <Button type="submit" color="primaryButton">
+          Add
+        </Button>
       </div>
     </form>
   )
+}
+
+TaskForm.propTypes = {
+  addTask: PropTypes.func.isRequired,
 }

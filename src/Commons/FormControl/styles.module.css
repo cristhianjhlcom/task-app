@@ -1,0 +1,22 @@
+.formControl {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.formLabel {
+  width: 100%;
+  font-weight: bold;
+  font-family: 14px;
+}
+
+.formInput {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border: 1px solid var(--lightgray-color);
+  border-radius: var(--rounded);
+  box-sizing: border-box;
+}

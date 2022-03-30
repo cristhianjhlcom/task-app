@@ -1,17 +1,25 @@
 import PropTypes from 'prop-types'
+import { Button } from '../../Commons/Button'
 import styles from './styles.module.css'
 
 export function TaskListItem({ task }) {
-  const { description, created_at } = task
+  const { description, created_at: createdAt } = task
 
   return (
     <li className={styles.taskListItem}>
-      <button>Completo</button>
+      <Button
+        color="primaryButton"
+        onClick={() => console.log('Boton de actualizar...')}
+      >
+        Completo ✅
+      </Button>
       <div>
         <h4 className={styles.taskItemTitle}>{description}</h4>
-        <span>{created_at}</span>
+        <span>{createdAt}</span>
       </div>
-      <button>Borrar</button>
+      <Button onClick={() => console.log('Boton de borrar...')}>
+        Borrar 🗑
+      </Button>
     </li>
   )
 }

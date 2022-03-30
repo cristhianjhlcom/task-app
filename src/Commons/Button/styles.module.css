@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: var(--rounded);
+}
+
+.defaultButton {
+  border: 1px solid var(--lightgray-color);
+  background-color: var(--lightgray-color);
+  color: var(--white-color);
+}
+
+.primaryButton {
+  border: 1px solid var(--primary-color-600);
+  background-color: var(--primary-color-600);
+  color: var(--white-color);
+}

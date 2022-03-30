@@ -22,3 +22,9 @@
 .taskItemTitle {
   margin: 0 0 10px 0;
 }
+
+.taskForm {
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: var(--rounded);
+}
