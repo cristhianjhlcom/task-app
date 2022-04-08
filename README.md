@@ -10,7 +10,7 @@ Aplicación sencilla para practicar reactjs, esta aplicación se esta creando en
   - [x] Configuración de Eslint
   - [x] Configuración de Prettier
   - [x] Instalación de JSON Server
-  - [] Crear repositorio en GIT
+  - [x] Crear repositorio en GIT
   - [] Crear variables de entorno
 - [x] Creación de Componentes
   - [x] Task components
@@ -18,10 +18,10 @@ Aplicación sencilla para practicar reactjs, esta aplicación se esta creando en
 - [x] Funcionalidad del Proyecto
   - [x] Listar Tasks
   - [x] Agregar Task
-  - [] Eliminar Task
-  - [] Actualizar estado de las Tasks
-  - [] Formatear fechas de las Tasks
-  - [] Agregar PropTypes para Tipar
+  - [x] Eliminar Task
+  - [x] Actualizar estado de las Tasks
+  - [x] Formatear fechas de las Tasks
+  - [x] Agregar PropTypes para Tipar
   - [] Compount Components para nuestro Task
   - [] Mostrar total de Tasks
   - [] Mostrar total de Tasks completadas
@@ -41,7 +41,7 @@ Aplicación sencilla para practicar reactjs, esta aplicación se esta creando en
 ## Uso
 
 Puedes hacer fork a este repositorio y luego descargar el proyecto. Instalar las dependencias utilizando `npm install`.
-Luego para correr el proyecto `npm run dev` y para correr el servidor sería ``npm run server`, asegurte de tener los puertos 3000 y 30001 disponibles. De lo contrario asegurate de cambiarlos en el package.json.
+Luego para correr el proyecto `npm run dev` y para correr el servidor sería `npm run server`, asegurte de tener los puertos 3000 y 30001 disponibles. De lo contrario asegurate de cambiarlos en el package.json.
 Puedes hacer checking de tu código con el comando `npm run lint-check`, si quieres corregirlos automaticamente puedes utilizar `npm run lint` y por útlimo para formatear el código puedes utilizar `npm run lint-check`.
 
 ## Mejoras a Futuro
