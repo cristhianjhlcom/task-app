@@ -17,3 +17,9 @@
   background-color: var(--primary-color-600);
   color: var(--white-color);
 }
+
+.dangerButton {
+  border: 1px solid var(--red-color);
+  background-color: var(--red-color);
+  color: var(--white-color);
+}

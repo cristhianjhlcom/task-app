@@ -1,12 +1,14 @@
-import PropTypes from 'prop-types'
-import { TaskListItem } from './TaskListItem'
+import { useContext } from 'react'
+import { TaskContext } from '../../../Context/TaskContext'
+import { TaskItem } from '../TaskItem'
 import styles from './styles.module.css'
 
-export function TaskList({ tasks, updateTaskStatus, deleteTask }) {
+export function TaskList() {
+  const { tasks, updateTaskStatus, deleteTask } = useContext(TaskContext)
   return (
     <ul className={styles.tasksList}>
       {tasks.map((task) => (
-        <TaskListItem
+        <TaskItem
           key={task.id}
           updateTaskStatus={updateTaskStatus}
           deleteTask={deleteTask}
@@ -19,10 +21,4 @@ export function TaskList({ tasks, updateTaskStatus, deleteTask }) {
 
 TaskList.defaultProps = {
   tasks: [],
-}
-
-TaskList.propTypes = {
-  tasks: PropTypes.array.isRequired,
-  deleteTask: PropTypes.func.isRequired,
-  updateTaskStatus: PropTypes.func.isRequired,
 }

@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import PropTypes from 'prop-types'
+import { useContext, useState } from 'react'
+import { Button } from '../../../Commons/Button'
+import { FormControl } from '../../../Commons/FormControl'
+import { TaskContext } from '../../../Context/TaskContext'
 import styles from './styles.module.css'
-import { FormControl } from '../../Commons/FormControl'
-import { Button } from '../../Commons/Button'
 
-export function TaskForm({ addTask }) {
+export function TaskForm() {
   const [task, setTask] = useState('')
+  const { addTask } = useContext(TaskContext)
 
   function handleSubmit(e) {
     e.preventDefault()
@@ -34,8 +35,4 @@ export function TaskForm({ addTask }) {
       </div>
     </form>
   )
-}
-
-TaskForm.propTypes = {
-  addTask: PropTypes.func.isRequired,
 }

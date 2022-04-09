@@ -2,7 +2,7 @@
   --gray-color: #e7e7e7;
   --lightgray-color: #afafaf;
   --darkgray-color: #a9a9a9;
-  --red-color: red;
+  --red-color: rgb(221, 59, 59);
   --green-color: green;
   --blue-color: blue;
   --white-color: white;
@@ -25,4 +25,5 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: var(--gray-color);
+  margin: 0;
 }

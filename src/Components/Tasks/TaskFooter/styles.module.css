@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--white-color);
+  padding: 5px 10px;
+  border-radius: var(--rounded);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerItem {
+  color: var(--primary-color-700);
+}
