@@ -22,11 +22,10 @@ Aplicación sencilla para practicar reactjs, esta aplicación se esta creando en
   - [x] Actualizar estado de las Tasks
   - [x] Formatear fechas de las Tasks
   - [x] Agregar PropTypes para Tipar
-  - [] Compount Components para nuestro Task
-  - [] Mostrar total de Tasks
-  - [] Mostrar total de Tasks completadas
-  - [] Selecte para ordenar las Tasks
-  - [] Usar Context API global (cualquier ejemplo)
+  - [x] Compount Components para nuestro Task
+  - [x] Mostrar total de Tasks
+  - [x] Mostrar total de Tasks completadas
+  - [x] Usar Context API global (cualquier ejemplo)
 - [] Deployar el proyecto
 
 ## Tecnologías utilizadas
