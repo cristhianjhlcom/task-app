@@ -2,6 +2,10 @@
 
 Aplicación sencilla para practicar reactjs, esta aplicación se esta creando en vivo, sin ninguna preparación solo estoy colocando todo lo que se, además, voy explicando cada cosa que hago en el código para que las personas puedan aprender y complementar algo a lo que ya saben sobre el desarrollo frontend en general.
 
+## Screenshot
+
+![Task APP desde 0 por cristhianjhl.com](./public/screenshot.JPG)
+
 ## Cosas por hacer
 
 - [x] Setup del proyecto
