@@ -72,4 +72,4 @@ Puedes seguirme en cualquiera de mis redes sociales para que estes al tanto de t
 - 📹 [YouTube.com](https://www.youtube.com/channel/UCHAghHz0ytlb7OthFRJRg7Q)
 - 🌐 [Cristhianjhl.com](https://cristhianjhl.com?utm_source=github&utm_medium=referrer&utm_campaign=task_app_reactjs)
 
-Hice este proyecto en vivo transmitiendo por 📺 [Twitch.tv](https://twitch.tv/ihasaku)
+Hice este proyecto en vivo transmitiendo por 📺 [Twitch.tv](https://twitch.tv/cristhianjhlweb)
